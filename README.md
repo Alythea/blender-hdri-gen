@@ -1,7 +1,7 @@
 # blender-hdri-gen
 Blender add-on to generate hdri world shading nodes
 # Installation
-Download the `blender-hdri-gen.zip` from [Releases]{/releases/tag/v1.0.0-beta} and install it using Blender's built-in add-on installer, located in Edit > Preferences > Add-ons > Install... and select the .zip archive. Afterwards enable the newly installed add-on
+Download the `blender-hdri-gen.zip` from [Releases](/releases/latest) and install it using Blender's built-in add-on installer, located in Edit > Preferences > Add-ons > Install... and select the .zip archive. Afterwards enable the newly installed add-on
 # Usage
 Once installed, the add-on can be accessed in the World Shader tab in the Shading environment. The add-on adds a new category containing nodes into the drop down menu Add used to generate HDRIs. 
 
