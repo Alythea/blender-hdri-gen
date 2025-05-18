@@ -21,15 +21,15 @@ class CubeRoomNode (bpy.types.ShaderNodeCustomGroup):
     width : bpy.props.FloatProperty(
         name="Width",
         description="Sets width of the rendered room",
-        min=1,
-        default=1
+        min=10,
+        default=10
     )
     
     height : bpy.props.FloatProperty(
         name="Height",
         description="Sets height of the rendered room",
-        min=1,
-        default=1
+        min=10,
+        default=10
     )
     
     blur_strength : bpy.props.IntProperty(
