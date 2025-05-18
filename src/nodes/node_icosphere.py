@@ -28,8 +28,8 @@ class IcoSphereNode (bpy.types.ShaderNodeCustomGroup):
     radius : bpy.props.FloatProperty(
         name="Radius",
         description="Sets the radius of the icosphere room",
-        min=10,
-        default=10
+        min=5,
+        default=5
     )
     
     blur_strength : bpy.props.IntProperty(

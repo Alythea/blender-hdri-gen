@@ -4,7 +4,7 @@ def populate_enum_reflective(scene, context):
     items = [("Default_Reflective_Material","Default_Reflective_Material","","",0),("Default_Emission_Material","Default_Emission_Material","","",1)]
     i = 2
     for material in bpy.data.materials:
-        if (material.name != "Default_Reflective_Material") or (material.name != "Default_Emission_Material"):
+        if ((material.name != "Default_Reflective_Material") and (material.name != "Default_Emission_Material")):
             items.append((material.name, material.name,"","",i),)
             i += 1
     return items

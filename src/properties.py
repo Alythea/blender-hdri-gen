@@ -93,7 +93,7 @@ class LightListItem (bpy.types.PropertyGroup):
         name="Light Power",
         subtype="POWER",
         description="Sets power of light",
-        default=50,
+        default=1000,
         min=0
     )
     
