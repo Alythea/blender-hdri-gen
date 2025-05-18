@@ -165,7 +165,8 @@ class MountainNode (bpy.types.ShaderNodeCustomGroup):
         op.mountain_scale = self.mountain_scale
         op.mountain_mat = self.mountain_mat
         op.height = 1000
-        op.width = 10
+        op.blur_strength = self.blur_strength
+        op.width = 80
         op.shape = "Mountains"
         
     def copy(self, node):

@@ -217,8 +217,9 @@ class ForestNode (bpy.types.ShaderNodeCustomGroup):
         op.tree_amount = self.tree_amount
         op.tree_random_size = self.tree_random_size
         op.tree_enum_type = self.tree_enum_type
+        op.blur_strength = self.blur_strength
         op.height = 100
-        op.width = 10
+        op.width = 80
         op.shape = "Forest"
         
     def copy(self, node):

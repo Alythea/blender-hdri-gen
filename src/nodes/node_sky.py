@@ -132,8 +132,9 @@ class SkyNode (bpy.types.ShaderNodeCustomGroup):
         op.air = self.air
         op.dust = self.dust
         op.ozone = self.ozone
+        op.blur_strength = self.blur_strength
         op.height = 4000
-        op.width = 4
+        op.width = 80
         op.shape = "Sky"
         
     def copy(self, node):

@@ -164,6 +164,7 @@ class IcoSphereNode (bpy.types.ShaderNodeCustomGroup):
         op = op_row.operator("hdri.render", text="Render")
         op.fileName = self.fileName
         op.height = self.radius
+        op.width = self.radius
         op.subdivisions = self.subdivisions
         op.enum_floor_mat = self.enum_floor_mat
         op.enum_ceiling_mat = self.enum_ceiling_mat
